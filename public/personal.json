@@ -1,0 +1,19 @@
+{
+    "data": {
+        "name" : "Zul Amri Durrin Nafis",
+        "role": "Software Enginer",
+        "pronounce": "He/Him",
+        "avatar": "",
+        "city": "Kubu Raya",
+        "country": "Indonesia",
+        "email" : "me@zull.dev",
+        "whatsapp" : "+6285705477252",
+        "linkedin" : "https://www.linkedin.com/in/zulamridn/",
+        "blog" : "https://zull.dev/blog",
+        "description": [
+            "I am a passionate Senior Software Developer with over five years of experience in building scalable and high-performance software solutions across industries like healthcare, finance, and smart cities. I specialize in both frontend and backend development, using modern tech stacks such as TypeScript, ReactJS, NextJS, NodeJS, Flutter, and GraphQL, and have strong expertise in cloud technologies like AWS and Azure.",
+            "My experience includes leading teams, implementing CI/CD pipelines, and driving best practices for code quality and performance. I enjoy solving complex problems, improving user experiences, and delivering innovative solutions that exceed expectations. Collaboration and continuous learning are central to my approach, and I am dedicated to fostering a culture of growth and excellence."
+        ]
+
+    }
+}

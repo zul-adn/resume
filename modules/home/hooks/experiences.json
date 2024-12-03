@@ -1,0 +1,134 @@
+{
+    "data": [
+        {
+            "company_name": "Galeneo",
+            "profile_image": "",
+            "position": "Full Stack Developer",
+            "work_setup": "Remote",
+            "from": "September 2023",
+            "to": "September 2024",
+            "tasks": [
+                "Built the 'Galeneo' healthcare mobile app using Flutter.",
+                "Developed and maintained a ReactJS-based dashboard for healthcare professionals.",
+                "Implemented GraphQL for chat functionalities.",
+                "Designed scalable infrastructure using AWS Amplify, AppSync, and DynamoDB.",
+                "Architected containerized solutions with ECS and API routing using Cloudflare and Nginx.",
+                "Improved web performance and SEO with NextJS."
+            ],
+            "tech_stack": [
+                "TypeScript",
+                "ReactJS",
+                "NextJS",
+                "NodeJS",
+                "Flutter",
+                "GraphQL",
+                "AWS",
+                "Docker",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "company_name": "IFG Life",
+            "profile_image": "",
+            "position": "Lead Frontend Developer",
+            "work_setup": "Onsite",
+            "from": "January 2022",
+            "to": "July 2023",
+            "tasks": [
+                "Led the development of a salesforce management dashboard and reimbursement app.",
+                "Refactored projects to TypeScript and transitioned to NextJS App Router.",
+                "Integrated Azure SSO and implemented multi-role functionalities.",
+                "Presented a micro-frontend approach for component reuse.",
+                "Set up Jenkins pipelines for CI/CD."
+            ],
+            "tech_stack": [
+                "TypeScript",
+                "NextJS",
+                "NodeJS",
+                "Azure",
+                "PostgreSQL",
+                "Jenkins"
+            ]
+        },
+        {
+            "company_name": "Adira Finance",
+            "profile_image": "",
+            "position": "Senior Frontend Developer",
+            "work_setup": "Onsite",
+            "from": "January 2021",
+            "to": "January 2022",
+            "tasks": [
+                "Converted a ReactJS app to a React Native mobile app ('Adiraku' app).",
+                "Established pipelines for APK builds.",
+                "Standardized code practices with linters and Git hooks.",
+                "Built a business dashboard for campaign management."
+            ],
+            "tech_stack": [
+                "ReactJS",
+                "React Native",
+                "NodeJS",
+                "Jenkins",
+                "ChartJS",
+                "FeatherJS"
+            ]
+        },
+        {
+            "company_name": "LuxPM",
+            "profile_image": "",
+            "position": "Full Stack Developer",
+            "work_setup": "Remote",
+            "from": "July 2021",
+            "to": "November 2021",
+            "tasks": [
+                "Developed a chatbot app with DeepFake and Blenderbot integration.",
+                "Implemented Azure Text-to-Voice and Voice-to-Text features.",
+                "Created backend services using Python and NodeJS, deployed to AWS EC2."
+            ],
+            "tech_stack": [
+                "React Native",
+                "NodeJS",
+                "Python",
+                "AWS",
+                "Azure"
+            ]
+        },
+        {
+            "company_name": "Gusto XR Lab",
+            "profile_image": "",
+            "position": "AR Web Developer",
+            "work_setup": "Remote",
+            "from": "June 2020",
+            "to": "June 2021",
+            "tasks": [
+                "Developed AR features for games with face, object, and image tracking.",
+                "Created VR experiences using Unity and AFrame."
+            ],
+            "tech_stack": [
+                "ReactJS",
+                "AFrame",
+                "Unity",
+                "MySQL"
+            ]
+        },
+        {
+            "company_name": "Diskominfo",
+            "profile_image": "",
+            "position": "Full Stack Developer",
+            "work_setup": "Onsite",
+            "from": "March 2018",
+            "to": "May 2020",
+            "tasks": [
+                "Developed the 'Sihebat' Smart City mobile app.",
+                "Built WordPress websites and Laravel-based booking systems.",
+                "Implemented GIS for city drainage management."
+            ],
+            "tech_stack": [
+                "ReactJS",
+                "Laravel",
+                "LeafletJS",
+                "WordPress",
+                "MySQL"
+            ]
+        }
+    ]
+}
