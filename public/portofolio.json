@@ -5,15 +5,17 @@
             "portofolio": [
                 {
                     "name": "Simple StackOverflow list view",
+                    "tags": ["nextjs", "stackoverflow api", "3rd integration"],
                     "url": "https://stackoverflow-list.vercel.app/",
                     "repo": "",
-                    "description": "-"
+                    "description": "Next.js application that serves as a comprehensive Q&A platform tailored for developers. It provides a robust environment for developers to ask questions, share knowledge, and collaborate on various programming topics."
                 },
                 {
                     "name": "Comparing company datas with AI",
+                    "tags": ["nextjs", "artificial intelegence", "openai", "mongodb", "nextjs fullstack"],
                     "url": "https://company-list-eosin.vercel.app/",
                     "repo": "",
-                    "description": "-"
+                    "description": "Platform designed to help users compare company data and make informed decisions. With features like advanced search and data upload options, it provides a streamlined experience for analyzing and contrasting company metrics. This tool is ideal for professionals, investors, and decision-makers seeking a comprehensive view to support their strategic choices."
                 }
             ]
         },
@@ -22,6 +24,7 @@
             "portofolio": [
                 {
                     "name": "-",
+                    "tags": [],
                     "url": "-",
                     "description": "-"
                 }
@@ -32,6 +35,7 @@
             "portofolio": [
                 {
                     "name": "-",
+                    "tags": [],
                     "url": "-",
                     "description": "-"
                 }

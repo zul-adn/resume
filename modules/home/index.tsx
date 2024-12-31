@@ -5,7 +5,7 @@ import PersonalInformation from "./components/personal-information";
 export default function Home() {
   return (
     <div className="grid grid-cols-2 gap-2 h-screen overflow-hidden">
-        <div className="relative container bg-slate-200 p-6 grid-cols-4">
+      <div className="relative container bg-slate-200 p-6 grid-cols-4" >
         <Suspense fallback={<p>Loading feed...</p>}>
                 <PersonalInformation />
             </Suspense>
