@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-function Loading({}: Props) {
+
+function Loading() {
   return (
     <div>Loading...</div>
   )

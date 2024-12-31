@@ -2,9 +2,9 @@
 import React from 'react'
 import useHome from '../../hooks/useHome'
 
-type Props = {}
 
-function WorkExperience({}: Props) {
+
+function WorkExperience() {
     const {experinces} = useHome()
 
   return (
