@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import WorkExperience from "./components/work-experience";
 import PersonalInformation from "./components/personal-information";
+import FloatingButton from "./components/floating-button";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <WorkExperience />
             </Suspense>
       </div>
+      <FloatingButton />
     </div>
   );
 }
