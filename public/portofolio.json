@@ -5,12 +5,14 @@
             "portofolio": [
                 {
                     "name": "Simple StackOverflow list view",
-                    "url": "",
+                    "url": "https://stackoverflow-list.vercel.app/",
+                    "repo": "",
                     "description": "-"
                 },
                 {
                     "name": "Comparing company datas with AI",
-                    "url": "",
+                    "url": "https://company-list-eosin.vercel.app/",
+                    "repo": "",
                     "description": "-"
                 }
             ]
