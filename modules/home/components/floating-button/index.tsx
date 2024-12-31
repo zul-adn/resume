@@ -8,7 +8,7 @@ type Props = {}
 function FloatingButton({}: Props) {
   return (
     <div className='absolute bottom-5 right-5 flex flex-col gap-2'>
-         <button className='bg-red-500 p-2 rounded-full shadow cursor-pointer' title='Read my blog'>
+         <button className='bg-red-500 p-2 rounded-full shadow cursor-pointer' title='Download my resume'>
            <RiDownloadCloud2Line color='white' size={24}/>
         </button>
         <button className='bg-black p-2 rounded-full shadow cursor-pointer' title='Read my blog'>
