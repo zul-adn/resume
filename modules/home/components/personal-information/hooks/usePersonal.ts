@@ -2,7 +2,8 @@
 import { useEffect, useState } from 'react'
 
 function usePersonal() {
-    const [personal, setPersonal] = useState<any>(null)
+    const [personal, setPersonal] = useState(null)
+    const [activeTab, setActiveTab] = useState<number>(0)
 
     useEffect(() => {
         fetchMyPersonal()
@@ -14,7 +15,9 @@ function usePersonal() {
         .then(response => setPersonal(response.data))
     }
     return {
-        personal
+        personal,
+        activeTab,
+        setActiveTab
     }
 }
 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Suspense } from "react";
 import WorkExperience from "./components/work-experience";
 import PersonalInformation from "./components/personal-information";
