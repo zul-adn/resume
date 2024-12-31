@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 
 function usePersonal() {
-    const [personal, setPersonal] = useState(null)
+    const [personal, setPersonal] = useState<any>(null)
     const [activeTab, setActiveTab] = useState<number>(0)
 
     useEffect(() => {

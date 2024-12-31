@@ -4,6 +4,7 @@ import usePersonal from './hooks/usePersonal'
 import Profile from './components/profile';
 import Image from 'next/image';
 import Link from 'next/link';
+import Portofolio from '../portofolio';
 
 function PersonalInformation() {
     const {personal, activeTab, setActiveTab} = usePersonal()
@@ -95,12 +96,20 @@ function PersonalInformation() {
               }`}>
               Tech Stack
             </div>
+            <div
+              onClick={() => setActiveTab(3)}
+              className={`grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
+                activeTab === 3 ? "bg-indigo-500 text-white" : ""
+              }`}>
+              Portofolio
+            </div>
           </div>
 
           <div className="overflow-x-scroll mt-4 p-6">
             {activeTab === 0 && <Profile />}
             {activeTab === 1 && "Coming soon"}
             {activeTab === 2 && "Coming soon"}
+            {activeTab === 3 && <Portofolio />}
           </div>
         </div>
       </div>
