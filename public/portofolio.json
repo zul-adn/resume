@@ -18,6 +18,18 @@
                     "description": "Platform designed to help users compare company data and make informed decisions. With features like advanced search and data upload options, it provides a streamlined experience for analyzing and contrasting company metrics. This tool is ideal for professionals, investors, and decision-makers seeking a comprehensive view to support their strategic choices."
                 }
             ]
+        },
+        {
+            "type": "Data Dashboard",
+            "portofolio": [
+                {
+                    "name": "US Flight Delay - 2022",
+                    "tags": ["data science", "tableau", "big data"],
+                    "url": "https://public.tableau.com/views/us-flight-delay/USFlightDelay?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+                    "repo": "",
+                    "description": "This interactive Tableau dashboard provides a comprehensive analysis of flight delays across the United States in 2022. It offers insights into various factors influencing delays, such as: Geographical Distribution or Delay Causes"
+                }
+            ]
         }
     ]
 }

@@ -23,25 +23,29 @@ function Portofolio() {
     <div>
       {portofolio &&
         portofolio.map((porto: any, index: number) => (
-          <div key={index} className="mb-2">
+          <div key={index} className="mb-4">
             <h3 className="text-lg font-black">{porto.type}</h3>
             <div>
               {porto.portofolio.map((val: any, i: number) => (
                 <div key={i} className="mb-2">
-                  <span className="font-bold">{val.name}</span> -
-                  <Link
-                    href={val.repo ?? "#"}
-                    target="__blank"
-                    className="text-sm text-blue-700 italic">
-                    github
-                  </Link>
-                  <span className="mx-2">|</span>
-                  <Link
-                    href={val.url}
-                    target="__blank"
-                    className="text-sm text-blue-700 italic">
-                    open link
-                  </Link>
+                  <div className="flex">
+                    <span className="font-bold">{val.name}</span>
+                    <span className="mx-2">-</span>
+                    <Link
+                      href={val.repo ?? "#"}
+                      target="__blank"
+                      className={`text-sm text-blue-700 italic ${
+                        val.repo ? "block" : "hidden"
+                      }`}>
+                      repository <span className="mx-2">|</span>
+                    </Link>
+                    <Link
+                      href={val.url}
+                      target="__blank"
+                      className="text-sm text-blue-700 italic">
+                      open link
+                    </Link>
+                  </div>
                   <div className="flex mb-2">
                     {val.tags.map((tag: string, i: number) => (
                       <div
