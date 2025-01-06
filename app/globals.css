@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #5f70cf;
+  border-radius: 20px;
+}

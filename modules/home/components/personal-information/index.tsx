@@ -38,7 +38,7 @@ function PersonalInformation() {
               <p className="text-sm text-gray-500">{personal?.role}</p>
             </div>
 
-            <div className="mt-4 flex gap-6 justify-center p-6">
+            <div className=" flex gap-6 justify-center py-4 mb-2">
               <button className="text-blue-600 text-sm font-medium">
                 <Image
                   priority
@@ -79,31 +79,31 @@ function PersonalInformation() {
           </div>
         </div>
 
-        <div className="flex justify-between bordered border-y border-indigo-600 ">
+        <div className="flex justify-between bordered border-y border-indigo-600 transition-all" data-tabs="tabs" role="list">
           <div
             onClick={() => setActiveTab(0)}
-            className={`grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
+            className={` transition-all ease-in-out grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
               activeTab === 0 ? "bg-indigo-500 text-white" : ""
             }`}>
             About Me
           </div>
           <div
             onClick={() => setActiveTab(1)}
-            className={`grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
+            className={`transition-all ease-in-out grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
               activeTab === 1 ? "bg-indigo-500 text-white" : ""
             }`}>
             Certification
           </div>
           <div
             onClick={() => setActiveTab(2)}
-            className={`grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
+            className={` transition-all ease-in-out grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
               activeTab === 2 ? "bg-indigo-500 text-white" : ""
             }`}>
             Tech Stack
           </div>
           <div
             onClick={() => setActiveTab(3)}
-            className={`grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
+            className={` transition-all ease-in-out grow text-center p-2 hover:cursor-pointer hover:bg-indigo-500 hover:text-white ${
               activeTab === 3 ? "bg-indigo-500 text-white" : ""
             }`}>
             Portofolio

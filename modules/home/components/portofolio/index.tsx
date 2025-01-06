@@ -24,12 +24,12 @@ function Portofolio() {
       {portofolio &&
         portofolio.map((porto: any, index: number) => (
           <div key={index} className="mb-4">
-            <h3 className="text-lg font-black">{porto.type}</h3>
+            <h3 className="text-lg font-bold">{porto.type}</h3>
             <div>
               {porto.portofolio.map((val: any, i: number) => (
                 <div key={i} className="mb-2">
                   <div className="flex">
-                    <span className="font-bold">{val.name}</span>
+                    <span className="font-semibold">{val.name}</span>
                     <span className="mx-2">-</span>
                     <Link
                       href={val.repo ?? "#"}
